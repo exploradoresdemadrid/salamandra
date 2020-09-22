@@ -36,10 +36,10 @@ workflows:
             branches:
               only:
                 - beta
-#      - deploy:
-#          requires:
-#            - build
-#          filters:
-#            branches:
-#              only:
-#                - beta
+      - deploy:
+          requires:
+            - build
+          filters:
+            branches:
+              only:
+                - beta
