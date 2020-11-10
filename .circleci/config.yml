@@ -35,11 +35,11 @@ workflows:
           filters:
             branches:
               only:
-                - beta
+                - master
       - deploy:
           requires:
             - build
           filters:
             branches:
               only:
-                - beta
+                - master
