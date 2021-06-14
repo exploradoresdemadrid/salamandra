@@ -5,4 +5,4 @@ RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local
 # Install module-required libraries
 RUN composer require drupal/phpmailer_smtp
 
-COPY ./etc/php/config.ini /usr/local/etc/php/config.ini
+COPY ./etc/php/php.ini /usr/local/etc/php/php.ini
