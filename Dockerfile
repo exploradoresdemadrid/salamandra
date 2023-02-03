@@ -1,4 +1,4 @@
-FROM drupal:9.4.5-apache
+FROM drupal:10.0.3-apache
 
 # Install composer
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
